@@ -50,10 +50,11 @@ p {
 
 .attribution { 
     font-size: 11px; text-align: center; 
+    color: hsl(25, 97%, 53%);
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(25, 97%, 53%)
 }
 
 .hidden-h1 {
@@ -62,7 +63,7 @@ p {
 }
 
 .card-container {
-    height: 100%;
+    height: 95%;
     width: 100%;
     display: flex;
     align-items: center;
