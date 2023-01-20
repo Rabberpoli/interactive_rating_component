@@ -16,33 +16,41 @@
 
   <main class="card-container">
     <div class="rating-card">
-      <div class="icon-container">
+      <div id="firstState" class="first-state-dialog">
+        <div class="icon-container">
+        </div>
+        <div class="img-container">
+          <img src="./images/icon-star.svg" alt aria-hidden>
+        </div>
+        <div class="text-container">
+          <h2> How did we do? </h2>
+          <p class="mt-13">
+            Please let us know how we did with your support request. All feedback is appreciated 
+            to help us improve our offering!
+          </p>
+        </div>
+        <div id="ratingNumContainer" class="rating-num-container">
+        </div>
+        <div class="btn-container mt-35">
+          <button class="submit-btn" onclick="showThankYouPage()">
+            SUBMIT
+          </button>
+        </div>
       </div>
-      <div class="img-container">
-        <img src="./images/icon-star.svg" alt aria-hidden>
-      </div>
-      <div class="text-container">
-        <h2> How did we do? </h2>
-        <p class="mt-13">
-          Please let us know how we did with your support request. All feedback is appreciated 
-          to help us improve our offering!
-        </p>
-      </div>
-      <div class="rating-num-container">
-        <div id="num-1" class="rating-num cursor-pointer"> 1 </div>
-
-        <div id="num-2" class="rating-num cursor-pointer"> 2 </div>
-
-        <div id="num-3" class="rating-num cursor-pointer"> 3 </div>
-
-        <div id="num-4" class="rating-num cursor-pointer"> 4 </div>
-
-        <div id="num-5" class="rating-num cursor-pointer"> 5 </div>
-      </div>
-      <div class="btn-container mt-35">
-        <button class="submit-btn">
-          SUBMIT
-        </button>
+      <div id="secondState" class="second-state-dialog">
+        <div class="thank-img-container mb-25 mt-13">
+          <img src="./images/illustration-thank-you.svg" alt="thank you page image">
+        </div>
+        <div class="rating-selected-container mb-35">
+          <p id="ratingText" class="rating-selected-text">
+            You selected out of 5
+          </p>
+        </div>
+        <div class="align-center">
+          <h2 class="mb-10"> Thank you! </h2>
+          <p>  We appreciate you taking the time to give a rating. If you ever need more support, 
+            don’t hesitate to get in touch! </p>
+        </div>
       </div>
     </div>
   </main>
@@ -67,5 +75,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div> -->
+  <script src="./src/interactive-component.js"></script>
 </body>
 </html>

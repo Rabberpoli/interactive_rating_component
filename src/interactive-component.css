@@ -36,6 +36,18 @@ p {
     margin-top: 35px;
 }
 
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+
+.mb-35 {
+    margin-bottom: 35px;
+}
+
 .attribution { 
     font-size: 11px; text-align: center; 
 }
@@ -102,6 +114,11 @@ p {
     font-weight: bold;
 }
 
+.rating-num-clicked {
+    background-color:  hsl(217, 12%, 63%);
+    color: white;
+}
+
 .btn-container {
     display: flex;
     justify-content: center;
@@ -114,6 +131,12 @@ p {
     height: 38px;
     border-radius: 26px;
     color: white;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
 }
 
 .cursor-pointer {
@@ -123,4 +146,39 @@ p {
 #num-1:hover, #num-2:hover, #num-3:hover, #num-4:hover, #num-5:hover {
     background: hsl(25, 97%, 53%);
     color: white;
+}
+
+.first-state-dialog {
+    height: 100%;
+    display: inline-block;
+}
+
+.second-state-dialog {
+    display: none;
+}
+
+.thank-img-container {
+    text-align: center;
+}
+
+.rating-selected-container {
+    display: flex;
+    justify-content: center;
+}
+
+.rating-selected-text {
+    font-family: 'Overpass', sans-serif;
+    color: hsl(25, 97%, 53%);
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 20px;
+    background-color: #272e37;
+    padding: 4px 0px 3px 0px;
+    border-radius: 15px;
+    width: 46%;
+    text-align: center;
+}
+
+.align-center {
+    text-align: center;
 }
