@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+html body {
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+} 
+
+h2 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Overpass', sans-serif;
+    color: white;
+}
+
+p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(217, 12%, 63%);
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.mt-13 {
+    margin-top: 13px;
+}
+
+.mt-35 {
+    margin-top: 35px;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.hidden-h1 {
+    visibility: hidden;
+    display: none;
+}
+
+.card-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rating-card {
+    width: 379px;
+    height: 379px;
+    background-color: hsl(215deg 21% 16%);
+    border-radius: 25px;
+    padding: 30px 25px 25px 25px;
+    position: relative;
+}
+
+.icon-container {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background: #272e37;
+    position: absolute;
+}
+
+.img-container {
+    position: absolute;
+    top: 43px;
+    left: 39px;
+}
+
+.text-container {
+    margin-top: 75px;
+}
+
+.rating-num-container {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rating-num {
+    width: 45px;
+    height: 45px;
+    background: #272e37;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 46px;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(217, 12%, 63%);
+    font-weight: bold;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.submit-btn {
+    background-color: hsl(25, 97%, 53%);
+    width: 100%;
+    border: none;
+    height: 38px;
+    border-radius: 26px;
+    color: white;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+#num-1:hover, #num-2:hover, #num-3:hover, #num-4:hover, #num-5:hover {
+    background: hsl(25, 97%, 53%);
+    color: white;
+}
